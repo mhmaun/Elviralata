@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: Elviralata
+Theme URL: http://elviralata.com
+Author: MH Maun
+Author URI: http://validcsshtml.com/
+Description: The elviralata theme for WordPress is a fully responsive theme that looks great. Features include a front page template with its own widgets, styling for post formats on both index and single views template. Make it yours with a custom menu.
+Version: 1.0.5
+Text Domain: http://elviralata.com
+
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+a{
+	border:none;
+	text-decoration:none;	
+	color:#7d715d;
+}
+a img{
+	border:none;	
+}
+h2{
+	margin:0px;	
+}
+h2 a{
+	color:#151515;
+	font-size:25px;	
+}
+h3{
+	margin:5px 0px;
+	padding:0px;	
+}
+#articleRightContainer ul,
+#articleRightContainer li{
+	list-style:none;
+}
+#articleRightContainer ul{
+	margin:5px 0px;
+	padding-left:10px;	
+}
+#articleRightContainer li{
+	font-size: 12px;
+    font-weight: 600;
+}
+body{
+	margin:0px;
+	background:#FFF url(images/top_head_nav.png) repeat-x top;
+	font-family:"Open Sans", Georgia, "Times New Roman", Times, serif;
+	color:#404040;
+}
+#mainContain{
+	width:1020px;
+	min-height:600px;
+	margin:0px auto;
+	position:relative;	
+}
+#headerContain{
+	height:190px;
+	width:100%;
+	position:relative;
+}
+#logoContain{
+	width:550px;
+	height:160px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:0;	
+}
+#navContain{
+	height:50px;
+	width:1020px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:99;
+	font-size:16px;
+}
+#navContain ul{
+	list-style:none;
+	margin:0px;
+	border:0px;
+	padding:0px;	
+}
+#navContain ul li{
+	padding:0px 30px;
+	display:block;
+	line-height:50px;
+	margin:0px;
+	height:50px;
+	text-transform:capitalize;
+	background:url(images/nav-separetor.png) right top no-repeat;
+	float:left;	
+}
+#navContain ul li a{
+	color:#FFF;
+	text-decoration:none;
+}
+#articleLeftContainer{
+	width:620px;
+	min-height:500px;
+	float:left;
+	margin-top:45px;
+}
+#PostContain{
+	margin-bottom:35px;	
+}
+.serchPostContain{
+	margin-bottom:10px;	
+}
+h1.page-title{
+	font-size:18px;
+	border-bottom:1px solid #dcdcdc;
+	line-height:40px;	
+}
+.serchPostContain .articleCont{
+	margin:10px 0px;	
+}
+.singlePostContain{ 
+	min-height:200px;
+	width:100%;
+	border-bottom:1px solid #c8c8c8;
+	margin-bottom:30px; 
+}
+.postInfo{
+	font-size:14px;
+	color:#888888;	
+}
+.postImgCont img{
+	margin-top:15px;	
+}
+.articleCont{
+	margin:20px 0px;
+	font-size:14px;
+	text-align:justify;	
+}
+#leftRightseparetor{
+	width:1px;
+	height:400px;
+	background:#dcdcdc;
+	float:left;
+	margin-left:50px;
+	margin-top:30px;	
+}
+#articleRightContainer{
+	width:302px;
+	min-height:500px;
+	float:right;
+	margin-top:45px;
+}	
+
+#footerContain{
+	height:230px;
+	width:100%;
+	background-color:#ece7df;
+	clear:both;	
+}
+#footer{
+	width:1020px;
+	height:230px;
+	margin:0px auto;
+}
+#footerLeftContain{
+	width:620px;
+	min-height:200px;
+	float:left; 
+}
+#footerMenuCont{
+	margin-top:35px;
+	height:35px;
+	border-bottom:1px solid #cac2b4;	
+}
+#footerMenuCont ul{
+	list-style:none;
+	margin:0px;	
+	padding:0px;
+}
+#footerMenuCont ul li{
+	display:inline-block;
+	padding:0px 10px;
+	border-left:1px solid #c8bfb1;
+	line-height:15px;	
+}
+#footerMenuCont ul li a:link, #footerMenuCont ul li a:visited{
+	color:#7d715d;
+}
+#footerMenuCont ul li a:hover{
+	color:#222;	
+}
+#footerMenuCont ul li:first-child{
+	border:none;
+	margin-left:-10px;
+}
+#footerPrivacyPolicy{
+	margin-top:5px;
+}
+#footerPrivacyPolicy ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;	
+}
+#footerPrivacyPolicy ul li{
+	display:inline-block;
+	padding:0px 7px;
+	border-left:1px solid #c8bfb1;
+	line-height:10px;	
+}
+#footerPrivacyPolicy ul li a{
+	font-size:11px;
+	text-transform:uppercase;
+	font-weight:600;	
+}
+#footerPrivacyPolicy ul li a:link, #footerPrivacyPolicy ul li a:visited{
+	color:#7d715d;
+}
+#footerPrivacyPolicy ul li a:hover{
+	color:#222;	
+}
+#footerPrivacyPolicy ul li:first-child{
+	border:none;
+	margin-left:-5px;
+}
+.searchBox{
+	width:300px;
+	height:48px;
+	background:url(images/search_bg.png) no-repeat;	
+	margin-bottom:30px;
+}
+.searchBox #s{
+	width:230px;
+	height:20px;
+	line-height:20px;
+	margin-top:15px;
+	margin-left:13px;
+	float:left;
+	background:none;
+	border:none;
+	color:#9fa1a8;
+	font-size:16px;	
+}
+.searchBox .submit{
+	float: right;
+    margin-right: 22px;
+    margin-top: 16px;
+}
+#copyRightCont{
+	font-size:11px;	
+	line-height:25px;
+}
+#footerRightContain{
+	width:345px;
+	height:140px;
+	float:right;
+}
+@charset "utf-8";
+/* CSS Document */
+a{
+	border:none;
+	text-decoration:none;	
+}
+a img{
+	border:none;	
+}
+h2{
+	margin:0px;	
+}
+h2 a{
+	color:#151515;
+	font-size:25px;	
+}
+body{
+	margin:0px;
+	background:#FFF url(images/top_head_nav.png) repeat-x top;
+	font-family:"Open Sans", Georgia, "Times New Roman", Times, serif;
+	color:#404040;
+}
+#mainContain{
+	width:1020px;
+	min-height:600px;
+	margin:0px auto;
+	position:relative;	
+}
+#headerContain{
+	height:190px;
+	width:100%;
+	position:relative;
+}
+#logoContain{
+	width:550px;
+	height:160px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:0;	
+}
+#navContain{
+	height:50px;
+	width:1020px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	z-index:99;
+	font-size:16px;
+}
+#navContain ul{
+	list-style:none;
+	margin:0px;
+	border:0px;
+	padding:0px;	
+}
+#navContain ul li{
+	padding:0px 30px;
+	display:block;
+	line-height:50px;
+	margin:0px;
+	height:50px;
+	text-transform:capitalize;
+	background:url(images/nav-separetor.png) right top no-repeat;
+	float:left;	
+}
+#navContain ul li a{
+	color:#FFF;
+	text-decoration:none;
+}
+#navContain ul li a:hover{
+	color:#ada19d;	
+}
+#articleLeftContainer{
+	width:620px;
+	min-height:500px;
+	float:left;
+	margin-top:45px;
+}
+.singlePostContain{ 
+	min-height:200px;
+	width:100%;
+	border-bottom:1px solid #c8c8c8;
+	margin-bottom:30px; 
+}
+.postInfo{
+	font-size:14px;
+	color:#888888;	
+}
+.postImgCont img{
+	margin-top:15px;	
+}
+.articleCont{
+	margin:20px 0px;
+	font-size:14px;
+	text-align:justify;	
+}
+#leftRightseparetor{
+	width:1px;
+	height:400px;
+	background:#dcdcdc;
+	float:left;
+	margin-left:50px;
+	margin-top:30px;	
+}
+#articleRightContainer{
+	width:302px;
+	min-height:500px;
+	float:right;
+	margin-top:45px;
+}	
+
+#footerContain{
+	height:230px;
+	width:100%;
+	background-color:#ece7df;
+	clear:both;	
+}
+#footer{
+	width:1020px;
+	height:230px;
+	margin:0px auto;
+}
+#footerLeftContain{
+	width:620px;
+	min-height:200px;
+	float:left; 
+}
+#footerMenuCont{
+	margin-top:35px;
+	height:35px;
+	border-bottom:1px solid #cac2b4;	
+}
+#footerMenuCont ul{
+	list-style:none;
+	margin:0px;	
+	padding:0px;
+}
+#footerMenuCont ul li{
+	display:inline-block;
+	padding:0px 10px;
+	border-left:1px solid #c8bfb1;
+	line-height:15px;	
+}
+#footerMenuCont ul li a:link, #footerMenuCont ul li a:visited{
+	color:#7d715d;
+}
+#footerMenuCont ul li a:hover{
+	color:#222;	
+}
+#footerMenuCont ul li:first-child{
+	border:none;
+	margin-left:-10px;
+}
+#footerPrivacyPolicy{
+	margin-top:5px;
+}
+#footerPrivacyPolicy ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;	
+}
+#footerPrivacyPolicy ul li{
+	display:inline-block;
+	padding:0px 7px;
+	border-left:1px solid #c8bfb1;
+	line-height:10px;	
+}
+#footerPrivacyPolicy ul li a{
+	font-size:11px;
+	text-transform:uppercase;
+	font-weight:600;	
+}
+#footerPrivacyPolicy ul li a:link, #footerPrivacyPolicy ul li a:visited{
+	color:#7d715d;
+}
+#footerPrivacyPolicy ul li a:hover{
+	color:#222;	
+}
+#footerPrivacyPolicy ul li:first-child{
+	border:none;
+	margin-left:-5px;
+}
+.searchBox{
+	width:300px;
+	height:48px;
+	background:url(images/search_bg.png) no-repeat;	
+	margin-bottom:30px;
+}
+#copyRightCont{
+	font-size:11px;	
+	line-height:25px;
+}
+#footerRightContain{
+	width:345px;
+	height:140px;
+	float:right;
+}
