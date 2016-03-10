@@ -1,0 +1,1 @@
+[30-Jun-2012 20:07:14] PHP Warning:  fopen(./cache/timthumb_int_0e85feed35f030201140572ead0e336c.timthumb.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home2/icoquico/public_html/wp-content/themes/iCoquito2/scripts/timthumb.php on line 963
